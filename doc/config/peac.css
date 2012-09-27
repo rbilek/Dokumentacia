@@ -1,0 +1,75 @@
+body {
+}
+
+@media screen
+{
+    body {
+        background-color: #FFFFFF;
+        color: #000000;
+	font-family: sans-serif;
+        font-size: 10pt;
+
+    }
+
+    /* Links */
+    a {
+        color: CornflowerBlue;
+        text-decoration: none; /* no underline */
+    }
+    a:visited {
+        color: CornflowerBlue;
+    }
+    a:hover {
+        color: blue;
+    }
+    
+    div.note,
+    div.tip,
+    div.important,
+    div.caution,
+    div.warning,
+    p.blurb
+    {
+	font-size: 9pt; /* A little bit smaller than the main text */
+	line-height: 1.2;
+	display: block;
+	margin: 1pc 4% 0pc 4%;
+	padding: 0.5pc 0.5pc 0.5pc 0.5pc;    
+	border: 1px solid #DCDCDC;
+        background-color: #F7F2E0;
+    }
+    
+    .screen {
+    font-family: monospace;
+    font-size: 90%;
+    background-color: #EFF5FB;
+    border-style:solid;
+	border-color:#99C2FF;
+	border-width:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	padding-left:5px;
+    }
+    
+    .programlisting {
+    font-family: monospace;
+    font-size: 90%;
+    background-color: #E6FFE6;
+   	border-style:solid;
+	border-color:#006633;
+	border-width:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	padding-left:5px;
+    }
+}

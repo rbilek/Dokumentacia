@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en" version="5.0">
+   <info>
+     <title>PEAC - Proof Enabled Analysis Cluster</title>
+     <author>
+       <firstname>Martin</firstname>
+       <surname>Vala</surname>
+     </author>
+     <copyright>
+       <year>2012</year>
+       <holder>Martin Vala</holder>
+     </copyright>
+   </info>
+   <chapter xml:id="Introduction">
+     <title>Introduction</title>
+     <para>PROOF is ...</para>
+     <para>PoD is ...</para>
+     <para>PEAC is ...</para>
+   </chapter>
+   <chapter xml:id="Requirements">
+     <title>Requirements</title>
+     <para>To run PEAC you need to have follwing packages installed.</para>
+     <para>Fedora and Scientific Linux :
+       <screen><command>yum install which wget openssl-devel zlib-devel gcc gcc-c++ gcc-gfortran make binutils libX11-devel libXpm-devel libXft-devel libXext-devel mesa-libGLU-devel boost-devel git subversion</command></screen>
+     </para>
+     <para>Ububtu/Kubuntu :
+       <screen><command>apt-get update</command>
+<command>apt-get install xorg-dev libboost-all-dev gcc g++ nice make git subversion</command></screen>
+     </para>
+   </chapter>
+   <chapter xml:id="PEACModes">
+     <title>PEAC modes</title>
+      <itemizedlist>
+<listitem><para>PROOF lite documentation can be found <ulink url="../peac-lite/index.html">here</ulink>.</para></listitem>
+     <listitem><para>PROOF cluster documentation can be found <ulink url="../peac-cluster/index.html">here</ulink>.</para></listitem>
+     <listitem><para>PROOF tutorial can be found <ulink url="../peac-tut/index.html">here</ulink>.</para></listitem>
+     <listitem><para>PROOF developer documentation can be found <ulink url="../peac-dev/index.html">here</ulink>.</para></listitem>
+     </itemizedlist>
+   </chapter>
+</book>
