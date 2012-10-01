@@ -25,7 +25,7 @@ if ( BUILD_DOC )
 	FILES ${CMAKE_SOURCE_DIR}/doc/config/docbook.css ${CMAKE_SOURCE_DIR}/doc/config/peac.css
 	${CMAKE_SOURCE_DIR}/doc/config/tip.png ${CMAKE_SOURCE_DIR}/doc/config/note.png
 	${CMAKE_SOURCE_DIR}/doc/config/warning.png
-	DESTINATION ${DOC_INSTALL_DIR}/peac-main
+	DESTINATION ${DOC_INSTALL_DIR}/my_first
 	PERMISSIONS OWNER_READ OWNER_WRITE
 	     GROUP_READ
 	     WORLD_READ
